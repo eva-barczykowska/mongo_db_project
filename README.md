@@ -113,9 +113,10 @@ CMD ["python", "main.py"]
    ```bash
    docker-compose up --build
    ```
-   ![mongo_db_project.jpg](..%2F..%2FDownloads%2Fmongo_db_project.jpg)
-   ![mongo_db_2.jpg](..%2F..%2FDownloads%2Fmongo_db_2.jpg)
-   ![mongo_db_3.jpg](..%2F..%2FDownloads%2Fmongo_db_3.jpg)
+![mongo_db_1.jpg](images%2Fmongo_db_1.jpg)
+![mongo_db_2.jpg](images%2Fmongo_db_2.jpg)
+![mongo_db_3.jpg](images%2Fmongo_db_3.jpg)
+
 2. **Output**:
    - You’ll see the inserted document's ID and the printed collection content.
 
