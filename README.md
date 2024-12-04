@@ -116,7 +116,8 @@ CMD ["python", "main.py"]
 ![mongo_db_1.jpg](images%2Fmongo_db_1.jpg)
 ![mongo_db_2.jpg](images%2Fmongo_db_2.jpg)
 ![mongo_db_3.jpg](images%2Fmongo_db_3.jpg)
-
+![mongo_db_runs_in_docker.jpg](images%2Fmongo_db_runs_in_docker.jpg)
+![mongo_db_compass.jpg](images%2Fmongo_db_compass.jpg)
 2. **Output**:
    - You’ll see the inserted document's ID and the printed collection content.
 
