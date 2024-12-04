@@ -10,9 +10,22 @@ db = client.my_database
 collection = db.my_collection
 
 # Insert a document
-sample_data = {"name": "Alice", "age": 25, "city": "New York"}
-result = collection.insert_one(sample_data)
-print(f"Inserted document with ID: {result.inserted_id}")
+records = [{"name": "Alice", "age": 25, "city": "New York"},
+           {"name": "Bob", "age": 30, "city": "London"},
+           {"name": "Charlie", "age": 28, "city": "Paris"},
+           {"name": "David", "age": 32, "city": "Tokyo"},
+           {"name": "Eve", "age": 27, "city": "Berlin"},
+           {"name": "Frank", "age": 35, "city": "Sydney"}]
+
+for record in records:
+    result = collection.insert_one(record)
+    print(f"Inserted document with ID: {result.inserted_id}")
+
+
+print("==============================================================")
+print("Total documents in collection:", collection.count_documents({}))
+
+print("==============================================================")
 
 # Fetch all documents
 print("Documents in collection:")
